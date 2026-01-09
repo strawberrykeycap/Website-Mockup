@@ -1,4 +1,11 @@
-/* Reset and Base Styles */
+
+
+ #map{
+
+ width: 60vw;
+ height: 50vw;
+  justify-self: center;
+ }
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +17,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Hero Section */
 .hero {
   height: 100vh;
   background-image: url('https://cdn.dribbble.com/userupload/37183420/file/original-7c3160f696af0841a597c9214a617b0c.png?resize=1600x1135&vertical=center');
@@ -20,7 +26,6 @@ body {
   position: relative;
 }
 
-/* Navigation */
 #fake-nav {
   position: absolute;
   top: 0;
@@ -89,7 +94,6 @@ body {
   border: 3px solid rgba(255, 255, 255, 0.3);
 }
 
-/* Hero Button */
 #herobutton {
   width: 200px;
   height: 60px;
@@ -110,7 +114,6 @@ body {
   transform: scale(1.05);
 }
 
-/* Mission Section */
 .mission {
   display: flex;
   justify-content: center;
@@ -130,7 +133,6 @@ body {
   color: #4a3b76;
 }
 
-/* Cards Section */
 .cards-demo {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -179,7 +181,7 @@ body {
   border-bottom: none;
 }
 
-/* Values Section */
+
 #values {
   text-align: center;
   padding: 5rem;
@@ -227,8 +229,10 @@ body {
   background-color: #f0f0f0;
 }
 
-/* Gallery Section */
+
 .gallery {
+  display: flex;
+  flex-direction: column ;
   padding: 5rem 2rem;
   text-align: center;
   background-color: #f5f5f5;
@@ -249,7 +253,7 @@ body {
   margin-top: 2rem;
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   padding: 3rem;
@@ -268,12 +272,12 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* Mobile Responsiveness */
 @media (max-width: 768px) {
   #hero-content {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     padding-top: 20vh;
+
     text-align: center;
     gap: 3rem;
   }
@@ -283,7 +287,7 @@ footer a:hover {
   }
 
   #title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
   #hero-info p {
@@ -296,13 +300,14 @@ footer a:hover {
   }
 
   #nav-ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     padding: 0.5rem;
+    margin-top: 5vh;
   }
 
   #nav-ul a {
-    font-size: 1.2rem;
+    font-size: 2rem;
     padding: 0.5rem;
   }
 
