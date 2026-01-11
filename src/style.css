@@ -24,6 +24,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+   border-bottom: 10px solid transparent; /* Creates space for the gradient */
+  border-image: linear-gradient(to bottom, rgb(163, 145, 179), rgb(255, 255, 255)) 1; /* Applies the gradient */
+  /* border-image-slice: 1; */ /* Optional, helps slice the gradient */
 }
 
 #fake-nav {
@@ -32,7 +35,7 @@ body {
   width: 100%;
   z-index: 100;
   padding: 1rem 0;
-}
+  
 
 #nav-ul {
   display: flex;
@@ -45,9 +48,10 @@ body {
 #nav-ul a {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
-  padding: 0.5rem 1rem;
+  font-size: 2.5rem;
+  padding: 0.5rem 1.2rem;
   transition: all 0.3s ease;
+}
   position: relative;
   letter-spacing: 0.1em;
 }
@@ -67,10 +71,15 @@ body {
   padding: 0 5vw;
   color: white;
   gap: 2rem;
+   border-bottom: linear-gradient(135deg, rgba(164, 141, 202, 0.41) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 #hero-info {
   padding-right: 2rem;
+  
+  
+  
+
 }
 
 #title {
@@ -109,11 +118,43 @@ body {
 }
 
 #herobutton:hover {
+  
+     background-image:     linear-gradient(
+      to right, 
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100%
+     
+     
+     
+    );
+  animation:slidebg 2s linear infinite;
+ /*
+ This animation is based off of Thiago Marques cite codepen in final push if used. Email to ask for permission. 
+ */
+  /*
   background: #315cfd;
   color: white;
   transform: scale(1.05);
-}
+  */
+  }
 
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
 .mission {
   display: flex;
   justify-content: center;
@@ -146,14 +187,17 @@ body {
   padding: 2rem;
   border-radius: 1rem;
   background-color: rgba(255, 255, 255, 0.9);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
+    box-shadow: 0 15px 30px rgba(164, 141, 202, 0.3);
+  /*transition: transform 0.3s ease, box-shadow 0.3s ease;
+  Ai added this when I asked for a cofe clean up t looks
+*/
+  }
+/*
 .card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(164, 141, 202, 0.3);
-}
 
+}
+*/
 .card h3 {
   color: #4a3b76;
   font-size: 2rem;
@@ -223,12 +267,16 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
+/*
 
+Deepseek added this when I asked for a code clean up
+commenting out becuase I like the timmming on the hover 
+saving for refernce only
 #values li:hover {
   transform: scale(1.05);
   background-color: #f0f0f0;
 }
-
+*/
 
 .gallery {
   display: flex;
@@ -280,6 +328,7 @@ footer a:hover {
 
     text-align: center;
     gap: 3rem;
+   
   }
 
   #hero-info {
@@ -287,7 +336,7 @@ footer a:hover {
   }
 
   #title {
-    font-size: 3.5rem;
+    font-size: 5.5rem;
   }
 
   #hero-info p {
@@ -353,4 +402,4 @@ footer a:hover {
   .gallery h2 {
     font-size: 2.5rem;
   }
-}
+} 
