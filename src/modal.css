@@ -2,7 +2,7 @@
 h1 {
     font-weight: normal;
     margin-top: 0;
-    color: black' 
+    color: blac;
 }
 
 button {
@@ -25,8 +25,9 @@ button:hover {
     position: fixed;
     inset: 0;
     z-index: 10000;
+    color: #C3BDEE !important; 
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    padding: 20px; 
     overflow-y: auto;
     backdrop-filter: blur(2px);
 }
@@ -69,7 +70,7 @@ body.jw-modal-open {
 }
 
 /* Form field styles */
-#phone, #email, #address, #username {
+#phone, #email, #address, #username ,#questions {
     margin-bottom: 1rem;
     height: 2.5rem;
     width: 100%;
@@ -146,6 +147,13 @@ textarea:focus {
     font-weight: 600;
     margin: 0;
 }
+
+#formSubmit{
+    width: 10vw; 
+    height: 5vw; 
+
+}
+
 
 /* Optional: Add button variations */
 .btn-primary {
