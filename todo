@@ -1,0 +1,27 @@
+hero 
+Add background to files instead of cdn 
+make donation button summon a modal box with donation options
+-what donatoin services to use? 
+
+Fix the modal look
+-add alternative close button 
+-fix sumbit button styling
+- make question bigger
+-weirf bug when sumbit is pressed background section is changed
+
+Add modal functionallity
+-create database
+-connect database to website
+
+cards
+- fix button spacing byu using wrapper div
+- change button colloring
+-make buttons summon modal box
+
+meet volunteres
+-fix responsive text sizing
+-change title underine
+0chanhge picture to something less heavy
+
+footer
+-fix footer text formating when not in mobile format
