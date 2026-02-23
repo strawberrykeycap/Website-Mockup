@@ -94,26 +94,7 @@
 
 
 /* Optional: Add name and title styling */
-.staff-card h3 {
-  color: #4a3b76;
-  font-size: 1.5rem;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-  position: relative;
-  padding-bottom: 0.5rem;
-}
 
-.staff-card h3::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
- 
-  width: 40px;
-  height: 2px;
-  background: #C3BDEE;
-  border-radius: 2px;
-}
 
 .staff-card p {
   color: #666;
