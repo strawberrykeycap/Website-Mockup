@@ -12,7 +12,7 @@
   padding: 1rem; 
   gap: 2rem;
   border: 1px solid rgba(164, 141, 202, 0.41);
-  border-radius: 1rem;
+  border-radius: 1rem;f
   background-color: rgba(255, 255, 255, 0.9);
   font-size: 1rem;
   width: 20vw; 
@@ -123,7 +123,8 @@ body {
 
 .hero {
   height: 100vh;
-  background-image: url('https://cdn.dribbble.com/userupload/37183420/file/original-7c3160f696af0841a597c9214a617b0c.png?resize=1600x1135&vertical=center');
+  /* Use a web-accessible path (relative or absolute) instead of file:/// */
+  background-image: url('hero-background.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

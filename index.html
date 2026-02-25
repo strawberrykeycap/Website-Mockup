@@ -1,153 +1,153 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mogra&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gender Enders - Inclusive Community</title>
-  </head>
-  <body>
-    <!-- Hero Section with Navigation -->
-    <section class="hero" id="hero">
-      <div id="fake-nav">
-        <ul id="nav-ul">
-          <li><a class="list" href="#hero"></a></li>
-          <li><a class="list" href="#mission">Mission</a></li>
-          <li><a class="list" href="#values">Staff</a></li>
-          <li><a class="list" href="#gallery">Donate</a></li>
-        </ul>
-      </div>
-      
-      <div id="hero-content">
-        <div id="hero-info">
-          <h1 id="title">Pink & Blue</h1>
-          <p>Trans People Supporting Trans People</p>
-          <button id="herobutton" >Contact Us</button>
-          <div id="modal-1" class="jw-modal">
-            <div class="jw-modal-body">
-             
-                <form id="userinfo">
-  <p>
-    <label for="username">Your Name:  </label>
-    <input type="text" id="username" name="username" value="Dominic" required />
-  </p>
-  <p>
-    <label for="phone">Phone Number:</label>
-    <input type="tel" id="phone" name="phone" value="555-555-5555" required />
-  </p>
-  <p>
-    <label for="email">Your Email:</label>
-    <input type="email" id="email" name="email" value="dominic@example.com" required />
-  </p>
-  <label for="textarea" >Questions</label>
-  <textarea id="questions">
-    
-  </textarea>
-  <input type="submit" value="Submit" id="formSubmit" />
-</form>
-                <button onclick="closeModal()">Close</button>
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mogra&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gender Enders - Inclusive Community</title>
+      </head>
+      <body>
+        <!-- Hero Section with Navigation -->
+        <section class="hero" id="hero">
+          <div id="fake-nav">
+            <ul id="nav-ul">
+              <li><a class="list" href="#hero"></a></li>
+              <li><a class="list" href="#mission">Mission</a></li>
+              <li><a class="list" href="#values">Staff</a></li>
+              <li><a class="list" href="#gallery">Donate</a></li>
+            </ul>
+          </div>
+          
+          <div id="hero-content">
+            <div id="hero-info">
+              <h1 id="title">Pink & Blue</h1>
+              <p>Trans People Supporting Trans People</p>
+              <button id="herobutton" >Contact Us</button>
+              <div id="modal-1" class="jw-modal">
+                <div class="jw-modal-body">
+                
+                    <form id="userinfo" name="contact" method="POST" data-netlify="true">
+      <p>
+        <label for="username">Your Name:  </label>
+        <input type="text" id="username" name="username" value="Dominic" required />
+      </p>
+      <p>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" value="555-555-5555" required />
+      </p>
+      <p>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" value="dominic@example.com" required />
+      </p>
+      <label for="textarea" >Questions</label>
+      <textarea id="questions">
+        
+      </textarea>
+      <input type="submit" value="Submit" id="formSubmit" />
+    </form>
+                    <button onclick="closeModal()">Close</button>
+                </div>
             </div>
-        </div>
 
-        </div>
-        <div id="hero-image-container">
-          <img id="hero-image" src="https://ca-times.brightspotcdn.com/dims4/default/0a8f175/2147483647/strip/true/crop/3000x2000+0+0/resize/2000x1333!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F3a%2Fe2%2F2354eb1e4cc5961547028fb801ed%2Flat-rbaker-final-29may2024.jpeg" alt="Diverse community celebrating inclusivity">
-        </img> 
-        </div>
-      </div>
-    </section>
-
-    <!-- Mission Section -->
-    <section class="mission" id="mission">
-      <div id="mission-content">
-        <h2>Our Mission</h2>
-        <p>To create offer an answer to gender dysphoria through the application of postive psychology in groups run by trans people for trans people.</p>
-      </div>
-    </section>
-
-    <!-- Cards Section -->
-    <section class="cards-demo">
-      <div class="card">
-        <h3>Support Groups</h3>
-        <p>Safe spaces for the trans community.</p>
-        <ul>
-          <li>Be Gay Do Crime</li>
-          <li>Blahaj Blast</li>
-          <li>Crotch pit installers LLC<li>
-        </ul>
-        <button class="card-button" id="support-button">Find a group</button>
-      </div>
-      <div class="card">
-        <h3>Educational Resources</h3>
-        <p>Learn about our work. </p>
-        <ul>
-          <li>Gender identity guides</li>
-          <li>Inclusive language resources</li>
-          <li>Bagels Bagels Bagels</li>
-        </ul>
-        <button class="card-button" id="news-letter">Join our newsletter</button>
-      </div>
-      <div class="card">
-        <h3>Advocacy & Action</h3>
-        <p>Working toward systemic change.</p>
-        <ul>
-          <li>Policy reform initiatives</li>
-          <li>Awareness campaigns</li>
-          <li>Community partnerships</li>
-        </ul>
-        <button class="card-button" id="in-service-button">Request an Inservice</button>
-      </div>
-    </section>
-
-    <!-- Values Section -->
-    <section id="values">
-      <h2>Meet our Volunteers </h2>
-      
-      <ul>
-        <div class="staff-card"> 
-          <div> 
-            <img class="staff-image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.customerparadigm.com%2Fimages%2Fphotography%2Fcolorado%2FBoulder-Denver%2FProfessional-Headshots%2Fprofessional-photographer-boulder-colorado-fiona.jpg&f=1&nofb=1&ipt=0ec5d9548afe809c88be723613778f66cd13f11eb41311f3ce62fd770717c2bf" alt="staffone" />
-            <div> <h3>Fiona</h3>
-              <p>Fiona has 70 million degrees in psychology and social work. She went to Grad school and won't shut up about it.</p>
+            </div>
+            <div id="hero-image-container">
+              <img id="hero-image" src="https://ca-times.brightspotcdn.com/dims4/default/0a8f175/2147483647/strip/true/crop/3000x2000+0+0/resize/2000x1333!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F3a%2Fe2%2F2354eb1e4cc5961547028fb801ed%2Flat-rbaker-final-29may2024.jpeg" alt="Diverse community celebrating inclusivity">
+            </img> 
             </div>
           </div>
-        </div>
-        <div class="staff-card">
-          <div>
-            <img class="staff-image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F5aee389b3c3a531e6245ae76%2F1663117457771-R2T2CINZO0WN7HW518BH%2FheadshotsMatter_Headshot_Professional_Dallas_ForthWorth-2.jpg&f=1&nofb=1&ipt=abf2ef370629dfccf4802639e59d2b08b29777aa4725cfa719e4d9f02eaef9c9" alt="Staff2"  />
-            <div> <h3 class="staff-subheading">Moxy Max</h3>
-               <p>Moxy is a non-binary artist and activist with a passion for social justice. They believe in the power of art to inspire change.</p>
-            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="mission" id="mission">
+          <div id="mission-content">
+            <h2>Our Mission</h2>
+            <p>To create offer an answer to gender dysphoria through the application of postive psychology in groups run by trans people for trans people.</p>
           </div>
-        </div>
-      </ul>
-    </section>
+        </section>
 
-    <!-- Gallery Section -->
-    <section class="gallery" id="gallery">
-      <h2>Where to find us</h2>
-      <div id="gallery-content">
-        <div  style="width: 100%"><iframe  id="map" width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=dildo,%20newfoundland+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.mapsdirections.info/de/evolkerung-auf-einer-karte-berechnen/">Bevölkerung visualisieren Karte</a></iframe></div>
-        <!-- Gallery images will be loaded here -->
-      </div>
-    </section>
+        <!-- Cards Section -->
+        <section class="cards-demo">
+          <div class="card">
+            <h3>Support Groups</h3>
+            <p>Safe spaces for the trans community.</p>
+            <ul>
+              <li>Be Gay Do Crime</li>
+              <li>Blahaj Blast</li>
+              <li>Crotch pit installers LLC<li>
+            </ul>
+            <button class="card-button" id="support-button">Find a group</button>
+          </div>
+          <div class="card">
+            <h3>Educational Resources</h3>
+            <p>Learn about our work. </p>
+            <ul>
+              <li>Gender identity guides</li>
+              <li>Inclusive language resources</li>
+              <li>Bagels Bagels Bagels</li>
+            </ul>
+            <button class="card-button" id="news-letter">Join our newsletter</button>
+          </div>
+          <div class="card">
+            <h3>Advocacy & Action</h3>
+            <p>Working toward systemic change.</p>
+            <ul>
+              <li>Policy reform initiatives</li>
+              <li>Awareness campaigns</li>
+              <li>Community partnerships</li>
+            </ul>
+            <button class="card-button" id="in-service-button">Request an Inservice</button>
+          </div>
+        </section>
 
-    <!-- Footer -->
-    <footer>
-      <p>&copy; 2026 YOUR MOM. All rights reserved.</p>
-      <p>Contact us: <a href="mailto:info@genderenders.org">info@genderenders.org</a></p>
-      <p>Need Help Now: Check out these resources <a href="#resources">Resources</a></p>
-      <p> Donate</p>
-      <p><a href="#hero">Back to top</a></p>
-    </footer>
+        <!-- Values Section -->
+        <section id="values">
+          <h2>Meet our Volunteers </h2>
+          
+          <ul>
+            <div class="staff-card"> 
+              <div> 
+                <img class="staff-image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.customerparadigm.com%2Fimages%2Fphotography%2Fcolorado%2FBoulder-Denver%2FProfessional-Headshots%2Fprofessional-photographer-boulder-colorado-fiona.jpg&f=1&nofb=1&ipt=0ec5d9548afe809c88be723613778f66cd13f11eb41311f3ce62fd770717c2bf" alt="staffone" />
+                <div> <h3>Fiona</h3>
+                  <p>Fiona has 70 million degrees in psychology and social work. She went to Grad school and won't shut up about it.</p>
+                </div>
+              </div>
+            </div>
+            <div class="staff-card">
+              <div>
+                <img class="staff-image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F5aee389b3c3a531e6245ae76%2F1663117457771-R2T2CINZO0WN7HW518BH%2FheadshotsMatter_Headshot_Professional_Dallas_ForthWorth-2.jpg&f=1&nofb=1&ipt=abf2ef370629dfccf4802639e59d2b08b29777aa4725cfa719e4d9f02eaef9c9" alt="Staff2"  />
+                <div> <h3 class="staff-subheading">Moxy Max</h3>
+                  <p>Moxy is a non-binary artist and activist with a passion for social justice. They believe in the power of art to inspire change.</p>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </section>
 
-    </footer>
+        <!-- Gallery Section -->
+        <section class="gallery" id="gallery">
+          <h2>Where to find us</h2>
+          <div id="gallery-content">
+            <div  style="width: 100%"><iframe  id="map" width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=dildo,%20newfoundland+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.mapsdirections.info/de/evolkerung-auf-einer-karte-berechnen/">Bevölkerung visualisieren Karte</a></iframe></div>
+            <!-- Gallery images will be loaded here -->
+          </div>
+        </section>
 
-    <script type="module" src="/src/main.js"></script>
-    <script src="/src/modal.js"></script>
-  </body>
-</html> 
+        <!-- Footer -->
+        <footer>
+          <p>&copy; 2026 YOUR MOM. All rights reserved.</p>
+          <p>Contact us: <a href="mailto:info@genderenders.org">info@genderenders.org</a></p>
+          <p>Need Help Now: Check out these resources <a href="#resources">Resources</a></p>
+          <p> Donate</p>
+          <p><a href="#hero">Back to top</a></p>
+        </footer>
+
+        </footer>
+
+        <script type="module" src="/src/main.js"></script>
+        <script src="/src/modal.js"></script>
+      </body>
+    </html> 
