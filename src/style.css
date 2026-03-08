@@ -3,10 +3,18 @@
   position: absolute; 
   width: 100vw; 
   height: 90vh; 
-top:0;
-z-index:-9; 
   
+
+
+  top:0;
+  z-index:-9; 
+  
+
 }
+body{
+    animation: opacity-in 0.5s ease-in-out;
+}
+@keyframes opacity-in  { 0% { opacity: 0; } 100% { opacity: 1; } }
 
 #values{
   display: flex; 
@@ -134,7 +142,7 @@ body {
   /* Use a web-accessible path (relative or absolute) instead of file:/// */
   /*background-image: url('hero-background.webp');
   transition: background-image 1s ease-in-out;
-*/ 
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
