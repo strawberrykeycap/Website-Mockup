@@ -34,7 +34,7 @@ export function initializeModalSystem() {
     });
     
     // Listen for hero button click
-    const heroButton = document.getElementById('herobutton');
+    const heroButton = document.getElementById('open-modal');
     if (heroButton) {
         heroButton.addEventListener('click', () => {
             console.log('Hero button clicked');
@@ -44,11 +44,47 @@ export function initializeModalSystem() {
         console.warn('Hero button (id="herobutton") not found in the DOM');
     }
     
+
+
+     const supportButton = document.getElementById('support-button');
+    if (supportButton) {
+        supportButton.addEventListener('click', () => {
+            console.log('Support button clicked');
+            openModal('modal-1'); // Assuming modal-1 is the ID of your modal
+        });
+    } else {
+        console.warn('Hero button (id="herobutton") not found in the DOM');
+    }
+
+
+
+     const newsButton = document.getElementById('news-letter');
+    if (newsButton) {
+        newsButton.addEventListener('click', () => {
+            console.log('News button clicked');
+            openModal('modal-1'); // Assuming modal-1 is the ID of your modal
+        });
+
+    } else {
+        console.warn('News button (id="news-letter") not found in the DOM');
+    }
+
+
+     const inServiceButton = document.getElementById('in-service-button');
+    if (inServiceButton) {
+        inServiceButton.addEventListener('click', () => {
+            console.log('In-Service button clicked');
+            openModal('modal-1'); // Assuming modal-1 is the ID of your modal
+        });
+    } else {
+        console.warn('Hero button (id="herobutton") not found in the DOM');
+    }
     // Optional: Add close button listener if it exists
     const closeButton = document.querySelector('.jw-modal .close-btn, .jw-modal button[onclick*="closeModal"]');
     if (closeButton) {
         closeButton.addEventListener('click', closeModal);
     }
+    
     
     // Close modal with Escape key
     document.addEventListener('keydown', (event) => {

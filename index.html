@@ -28,7 +28,7 @@
             <div id="hero-info">
               <h1 id="title">Pink & Blue</h1>
               <p>Trans People Supporting Trans People</p>
-              <button id="herobutton" >Contact Us</button>
+              <button class="herobutton" id="open-modal" >Contact Us</button>
               <div id="modal-1" class="jw-modal">
                 <div class="jw-modal-body">
                 
@@ -46,10 +46,12 @@
         <input type="email" id="email" name="email" placeholder="dominic@example.com" required />
       </p>
      
-      
+      <div class="formButtonGroup">
       <input type="submit" value="Submit" id="formSubmit" />
-    </form>
-                    <button onclick="closeModal()">Close</button>
+       <button onclick="closeModal()" id="closeForm">Close</button>
+      </div>
+      </form>
+                   
                 </div>
             </div>
 
@@ -66,7 +68,7 @@
         
           <div id="mission-content">
             <h2>Our Mission</h2>
-            <p>To create offer an answer to dysphoria through the application of postive psychology in groups run by trans people for trans people.</p>
+            <p>To create an answer to dysphoria through the application of postive psychology in groups run by trans people for trans people.</p>
           </div>
         </section>
 
@@ -76,9 +78,9 @@
             <h3>Support Groups</h3>
             <p>Safe spaces for the trans community.</p>
             <ul>
-              <li>Be Gay Do Crime</li>
+              <li>Peer Support</li>
               <li>Blahaj Blast</li>
-              <li>Crotch pit installers LLC<li>
+              <li><li>
             </ul>
             <button class="card-button" id="support-button">Find a group</button>
           </div>
@@ -86,7 +88,7 @@
             <h3>Educational Resources</h3>
             <p>Learn about our work. </p>
             <ul>
-              <li>Gender identity guides</li>
+              <li>HealthCare Recources</li>
               <li>Inclusive language resources</li>
               <li>Bagels Bagels Bagels</li>
             </ul>
@@ -111,17 +113,18 @@
           <ul>
             <div class="staff-card"> 
               <div> 
-                <img class="staff-image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.customerparadigm.com%2Fimages%2Fphotography%2Fcolorado%2FBoulder-Denver%2FProfessional-Headshots%2Fprofessional-photographer-boulder-colorado-fiona.jpg&f=1&nofb=1&ipt=0ec5d9548afe809c88be723613778f66cd13f11eb41311f3ce62fd770717c2bf" alt="staffone" />
-                <div> <h3>Fiona</h3>
-                  <p>Fiona has 70 million degrees in psychology and social work. She went to Grad school and won't shut up about it.</p>
+                <img class="staff-image" src="src/jody_temp.jpeg" alt="staffone" />
+                <div> 
+                  <h3>Jody</h3>
+                  <p>Jody is a social worker who works primarily with the queer community. She oversees the operations of Pink and Blue.</p>
                 </div>
               </div>
             </div>
             <div class="staff-card">
               <div>
                 <img class="staff-image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F5aee389b3c3a531e6245ae76%2F1663117457771-R2T2CINZO0WN7HW518BH%2FheadshotsMatter_Headshot_Professional_Dallas_ForthWorth-2.jpg&f=1&nofb=1&ipt=abf2ef370629dfccf4802639e59d2b08b29777aa4725cfa719e4d9f02eaef9c9" alt="Staff2"  />
-                <div> <h3 class="staff-subheading">Moxy Max</h3>
-                  <p>Moxy is a non-binary artist and activist with a passion for social justice. They believe in the power of art to inspire change.</p>
+                <div> <h3 class="staff-subheading">Evelyn</h3>
+                  <p> Evelyn is a volunteer coach, and peer advocate at Pink and Blue.</p>
                 </div>
               </div>
             </div>
@@ -132,16 +135,18 @@
         <section class="gallery" id="gallery">
           <h2>Where to find us</h2>
           <div id="gallery-content">
-            <div  style="width: 100%"><iframe  id="map" width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=dildo,%20newfoundland+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.mapsdirections.info/de/evolkerung-auf-einer-karte-berechnen/">Bevölkerung visualisieren Karte</a></iframe></div>
+            <div  style="width: 100%">
+              <div  id="map" class="embed-map-responsive"><div class="embed-map-container"><iframe class="embed-map-frame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&height=400&hl=en&q=Brick%20Nj&t=p&z=14&ie=UTF8&iwloc=B&output=embed"></iframe><a href="https://cartoongames.io" style="font-size:2px!important;color:gray!important;position:absolute;bottom:0;left:0;z-index:1;max-height:10px;overflow:hidden">Cartoon Network Games</a><a href="https://pokepath.org" style="font-size:2px!important;color:gray!important;position:absolute;bottom:0;left:0;z-index:1;max-height:10px;overflow:hidden">PokePath TD</a></div><style>.embed-map-responsive{position:relative;text-align:right;width:100%;height:0;padding-bottom:66.66666666666666%;}.embed-map-container{overflow:hidden;background:none!important;width:100%;height:100%;position:absolute;top:0;left:0;}.embed-map-frame{width:100%!important;height:100%!important;position:absolute;top:0;left:0;}</style></div>
+            </div>
             <!-- Gallery images will be loaded here -->
           </div>
         </section>
 
         <!-- Footer -->
         <footer>
-          <p>&copy; 2026 YOUR MOM. All rights reserved.</p>
+          <p>&copy; </p>
           <p>Contact us: <a href="mailto:info@pinkandblue.gay">info@pinkandblue.gay</a></p>
-          <p>Need Help Now: Check out these resources <a href="#resources">Resources</a></p>
+          <p>In an Emergency? Call(877) 565-8860 for Trans Lifeline <a href="#resources"></a></p>
           <p> Donate</p>
           <p><a href="#hero">Back to top</a></p>
         </footer>

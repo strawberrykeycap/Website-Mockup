@@ -151,9 +151,15 @@ textarea:focus {
 #formSubmit{
     width: 10vw; 
     height: 5vw; 
-
+    border-radius:  3rem;
 }
 
+#closeForm{
+    width: 10vw; 
+    height: 5vw; 
+    border-radius: 3rem;
+    background-color: #ddd;
+}
 
 /* Optional: Add button variations */
 .btn-primary {
@@ -170,4 +176,11 @@ textarea:focus {
     background-color: transparent;
     border: 1px solid #ddd;
     color: #333;
+}
+
+.formButtonGroup {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    gap: 10px;
 }
