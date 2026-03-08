@@ -1,4 +1,12 @@
-
+#hero-splash{
+  display:block;
+  position: absolute; 
+  width: 100vw; 
+  height: 90vh; 
+top:0;
+z-index:-9; 
+  
+}
 
 #values{
   display: flex; 
@@ -124,7 +132,9 @@ body {
 .hero {
   height: 100vh;
   /* Use a web-accessible path (relative or absolute) instead of file:/// */
-  background-image: url('hero-background.webp');
+  /*background-image: url('hero-background.webp');
+  transition: background-image 1s ease-in-out;
+*/ 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -201,7 +211,7 @@ body {
 
 #hero-image {
   max-width: 100%;
-  height: auto;
+  height: 25vh;
   margin-left: 0.5vw;
   border-radius: 1rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -628,4 +638,3 @@ footer a:hover {
   }
 
 } 
-
