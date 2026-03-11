@@ -1,3 +1,6 @@
+host google fonts locally
+
+
 hero 
 Add background to files instead of cdn 
 make donation button summon a modal box with donation options
@@ -10,18 +13,18 @@ Fix the modal look
 -weirf bug when sumbit is pressed background section is changed
 
 Add modal functionallity
--create database
+-create database(netlify has csv)
 -connect database to website
 
 cards
 - fix button spacing byu using wrapper div
 - change button colloring
--make buttons summon modal box
+-make buttons summon modal box(done)
 
 meet volunteres
 -fix responsive text sizing
--change title underine
-0chanhge picture to something less heavy
+-change title underine(done)
+0chanhge picture to something less heavy(done)
 
 footer
 -fix footer text formating when not in mobile format
