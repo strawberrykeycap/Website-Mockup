@@ -15,11 +15,11 @@ button:hover {
     position: fixed;
     inset: 0;
     z-index: 10000;
-    color: #C3BDEE !important; 
-    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(142, 96, 214, 0.41)  !important; 
+ 
     padding: 20px; 
     overflow-y: auto;
-    backdrop-filter: blur(2px);
+
 }
 
 .jw-modal.open {
@@ -36,7 +36,6 @@ button:hover {
     max-width: 600px;
     width: 100%;
     border-radius: 12px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
     position: relative;
     margin: auto;
     animation: modalSlideIn 0.3s ease-out;
@@ -75,7 +74,6 @@ body.jw-modal-open {
 #phone:focus, #email:focus, #address:focus, #username:focus {
     outline: none;
     border-color: #4a90e2;
-    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
 }
 /*removed but could put back */ 
 textarea {

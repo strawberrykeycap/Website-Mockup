@@ -7,6 +7,44 @@
   src: url('fonts/mogra-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+.board{
+ background-color: rgba(164, 141, 202, 0.41);
+  margin: 2rem;
+  border-radius: 1rem;
+
+}
+#board-title{
+  display: flex; 
+  justify-content: center;
+  padding-top: 2rem;;
+  font-size: 2.5rem;
+  color:#4a3b76;
+  }
+
+#board-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem;
+ text-align: center;
+  padding: 5rem;
+  font-size: 2rem;
+ 
+  justify-content: space-evenly;
+}
+
+.board-card{
+background-color: white;
+  padding: 1rem; 
+  gap: 2rem;
+  border: 1px solid rgba(164, 141, 202, 0.41);
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  width: 20vw; 
+
+outline: 1px solid rgba(164, 141, 202, 0.41);
+}
 #hero-splash{
   display:block;
   position: absolute; 
@@ -130,7 +168,7 @@ body{
 
 
  #map{
- border-radius: 1rem;
+ border-radius: 3rem;
  width: 60vw;
  height: 50vw;
   justify-self: center;
@@ -223,7 +261,7 @@ body {
 #hero-info p {
   font-size: 3rem;
   margin-bottom: 2rem;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
 }
 
 #hero-image {
@@ -373,7 +411,7 @@ body {
 }
 
 .card {
-  border: 3px solid #e5d49b;
+  border: 3px solid rgba(164, 141, 202, 0.6);
   padding: 2rem;
   border-radius: 1rem;
   background-color: rgba(255, 255, 255, 0.9);
@@ -410,7 +448,11 @@ body {
   
   font-size: 1.1rem;
 }
-
+.button-wrapper{
+  display: flex;
+  flex-direction: column;
+ justify-content: flex-end;
+}
 .card-button{
   background-color: #C3BDEE;
   color: white;
@@ -420,6 +462,8 @@ body {
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-family: 'Mogra', sans-serif;
+   justify-content: flex-end;
+
 }
 
 .card-button:hover {
@@ -514,7 +558,7 @@ saving for refernce only
 
   background-color: #f5f5f5;
   margin: 2rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
 
 }
 
