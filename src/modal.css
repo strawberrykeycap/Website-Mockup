@@ -16,7 +16,7 @@ button:hover {
     inset: 0;
     z-index: 10000;
     color: rgba(142, 96, 214, 0.41)  !important; 
- 
+   
     padding: 20px; 
     overflow-y: auto;
 
@@ -32,6 +32,7 @@ button:hover {
 
 .jw-modal-body {
     background: #ffffff;
+     outline: 2px solid rgba(142, 96, 214, 0.41);
     padding: 30px;
     max-width: 600px;
     width: 100%;
