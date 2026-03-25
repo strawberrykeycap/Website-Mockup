@@ -473,7 +473,7 @@ body {
   /* Initial state - hidden */
   opacity: 0;
   transform: rotateY(-80deg);
-  
+  display: block; 
   /* Animation properties */
   animation-name: flip-in-ver-right;
   animation-duration: 2.25s;
