@@ -450,8 +450,7 @@ body {
 }
 .button-wrapper{
   display: flex;
-  flex-direction: column;
- justify-content: flex-end;
+  margin-top: auto;
 }
 .card-button{
   background-color: #C3BDEE;
@@ -462,6 +461,7 @@ body {
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-family: 'Mogra', sans-serif;
+  display: flex;
    justify-content: flex-end;
 
 }
