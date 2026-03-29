@@ -11,11 +11,14 @@
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Gender Enders - Inclusive Community</title>
+        <script type="module" crossorigin src="/src/main.js"></script>
+        <script type="module" src="/src/modal.js"></script>
+        <link rel="stylesheet" crossorigin href="/src/style.css">
       </head>
       <body>
     
         <section class="hero" id="hero">
-            <img src="src/hero-background.jpg" id="hero-splash" alt="Hero Image">
+            <img src="/src/hero-background.jpg" id="hero-splash" alt="Hero Image">
           <div id="fake-nav">
             <ul id="nav-ul">
               <li><a class="list" href="#hero"></a></li>
@@ -34,7 +37,7 @@
               <div id="modal-1" class="jw-modal">
                 <div class="jw-modal-body">
                 
-                    <form id="userinfo" name="contact" method="POST" data-netlify="true">
+                    <form id='userinfo' method='POST' name='contact'><input type='hidden' name='form-name' value='contact' />
       <p>
         <label for="username">Name:  </label>
         <input type="text" id="username" name="username" placeholder="Name" required />
@@ -70,14 +73,14 @@
         
           <div id="mission-content">
             <h2>Our Mission</h2>
-            <p>To create an answer to dysphoria through the application of postive psychology in groups run by trans people for trans people.</p>
+            <p>To offer transgender people answers to dysphoria through the application of positive psychology in groups run by trans people for trans people.</p>
           </div>
         </section>
 
         <!-- Cards Section -->
         <section class="cards-demo">
           <div class="card">
-            <h3>Support Groups</h3>
+            <h3>Empowerment Groups</h3>
             <p>Safe spaces for the trans community.</p>
             
             <ul>
@@ -120,7 +123,7 @@
           <ul>
             <div class="staff-card"> 
               <div> 
-                <img class="staff-image" src="src/jody_temp.jpeg" alt="staffone" />
+                <img class="staff-image" src="/src/jody_temp.jpeg" alt="staffone" />
                 <div> 
                   <h3>Jody</h3>
                   <p>Jody is a social worker who works primarily with the queer community. She oversees the operations of Pink and Blue.</p>
@@ -129,7 +132,7 @@
             </div>
             <div class="staff-card">
               <div>
-                <img class="staff-image" src="src/evelyn-slightaltered.jpg"  />
+                <img class="staff-image" src="/src/evelyn-slightaltered.jpg"  />
                 <div> <h3 class="staff-subheading">Evelyn</h3>
                   <p> Evelyn is a volunteer coach, and peer advocate at Pink and Blue.</p>
                 </div>
@@ -141,14 +144,15 @@
   
         <section class="board">
 
-        <h2 id="board-title">Board of Directors(Coming to a website near you!)</h2>
+        <h2 id="board-title">Board of Directors</h2>
+      <h3 id="board-title">Coming Soon</h3>
         <div id="board-content">
        
       
-        
+        <!---
           <div class="board-card">
             <h3>Comming Soon</h3>
-            <img src="src/jane_doe.jpg" alt="Jane Doe" />
+            
             <p>Chairperson</p>
           </div>
           <div class="board-card">
@@ -161,6 +165,7 @@
           
             <p>Secretary</p>
           </div>
+        -->
         </div>
         </section>
 
@@ -180,15 +185,14 @@
 
         <!-- Footer -->
         <footer>
-          <p>&copy; </p>
+          
           <p>Contact us: <a href="mailto:info@pinkandblue.gay">info@pinkandblue.gay</a></p>
           <p>In an Emergency? Call(877) 565-8860 for Trans Lifeline <a href="#resources"></a></p>
           <p> Donate</p>
           <p><a href="#hero">Back to top</a></p>
+          
         </footer> 
         
 
-        <script type="module" src="/src/main.js"></script>
-        <script src="/src/modal.js"></script>
       </body>
     </html> 
